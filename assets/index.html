@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Lungo 2 - HTML5 Cross-Device Framework</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="cleartype" content="on">
+
+    <!-- iPhone -->
+    <link href="http://lungo.tapquo.com/resources/icon-57.png" sizes="57x57" rel="apple-touch-icon">
+    <link href="http://lungo.tapquo.com/resources/startup-image-320x460.png" media="(device-width: 320px) and (device-height: 480px)
+             and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+
+    <!-- iPhone (Retina) -->
+    <link href="http://lungo.tapquo.com/resources/icon-114.png" sizes="114x114" rel="apple-touch-icon">
+    <link href="http://lungo.tapquo.com/resources/startup-image-640x920.png" media="(device-width: 320px) and (device-height: 480px)
+             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+    <!-- iPhone 5 -->
+    <link href="http://lungo.tapquo.com/resources/startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px)
+             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+    <!-- iPad -->
+    <link href="http://lungo.tapquo.com/resources/icon-72.png" sizes="72x72" rel="apple-touch-icon">
+    <link href="http://lungo.tapquo.com/resources/startup-image-768x1004.png" media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: portrait)
+             and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+    <link href="http://lungo.tapquo.com/resources/startup-image-748x1024.png" media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: landscape)
+             and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+
+    <!-- iPad (Retina) -->
+    <link href="http://lungo.tapquo.com/resources/icon-144.png" sizes="144x144" rel="apple-touch-icon">
+    <link href="http://lungo.tapquo.com/resources/startup-image-1536x2008.png" media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: portrait)
+             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <link href="http://lungo.tapquo.com/resources/startup-image-1496x2048.png" media="(device-width: 768px) and (device-height: 1024px)
+             and (orientation: landscape)
+             and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+    <!-- Lungo - Stylesheets -->
+    <link rel="stylesheet" href="components/lungo/lungo.css">
+    <link rel="stylesheet" href="components/lungo/lungo.icon.css">
+    <link rel="stylesheet" href="components/lungo/lungo.icon.brand.css">
+    <link rel="stylesheet" href="components/lungo/lungo.theme.default.css">
+</head>
+
+<body class="app">
+
+    <!-- <section id="login" data-transition="cover">
+        <article class="indented splash" >
+            <h1>Login</h1>
+            <form action="">
+                <input type="text" placeholder="Su Usuario" >
+                <input type="password" placeholder="Su Password">
+                <a href="#main" data-router="section" class="button blue big" data-label="Login" data-icon="user" ></a>
+            </form>
+        </article>
+    </section> -->
+
+    <section id="main" data-transition="cover" >
+        <header data-title="Hola Mundo">
+            <nav class="left box">
+                <a href="#features" data-router="aside" data-icon="menu"></a>
+            </nav>
+            <nav class="right box">
+                <a href="#second" data-router="section"  data-icon="folder" data-count="20" ></a>
+            </nav>
+        </header>
+        <article id="art-4" class="list indented scroll">
+            <li data-icon="compass" class="selectable red ">
+                <div class="right bubble theme">2012/11/13</div>
+                <strong>LungoJs</strong>
+                <small>Description one</small>
+            </li>
+            <li data-icon="cart" class="selectable arrow  ">
+                <strong>QuoJs</strong>
+                <small>Description two</small>
+            </li>
+            <li data-image="http://lungo.tapquo.com/resources/icon-57.png"  class="selectable arrow thumb">
+                <strong>Monocle</strong>
+                <small>Description three</small>
+            </li>
+            <li data-icon="compass" class="selectable ">
+                <div class="right bubble theme">2012/11/13</div>
+                <strong>LungoJs</strong>
+                <small>Description one</small>
+            </li>
+            <li data-icon="cart" class="selectable arrow  ">
+                <strong>QuoJs</strong>
+                <small>Description two</small>
+            </li>
+            <li data-image="http://lungo.tapquo.com/resources/icon-57.png"  class="selectable arrow thumb">
+                <strong>Monocle</strong>
+                <small>Description three</small>
+            </li>
+            <li data-icon="compass" class="selectable ">
+                <div class="right bubble theme">2012/11/13</div>
+                <strong>LungoJs</strong>
+                <small>Description one</small>
+            </li>
+            <li data-icon="cart" class="selectable arrow  ">
+                <strong>QuoJs</strong>
+                <small>Description two</small>
+            </li>
+            <li data-image="http://lungo.tapquo.com/resources/icon-57.png"  class="selectable arrow thumb">
+                <strong>Monocle</strong>
+                <small>Description three</small>
+            </li>
+            <li data-icon="compass" class="selectable ">
+                <div class="right bubble theme">2012/11/13</div>
+                <strong>LungoJs</strong>
+                <small>Description one</small>
+            </li>
+            <li data-icon="cart" class="selectable arrow  ">
+                <strong>QuoJs</strong>
+                <small>Description two</small>
+            </li>
+            <li data-image="http://lungo.tapquo.com/resources/icon-57.png"  class="selectable arrow thumb">
+                <strong>Monocle</strong>
+                <small>Description three</small>
+            </li>
+        </article>
+        <article id="art-3" class="indented">
+            <form>
+                <label>Date</label>
+                <input type="date" />
+                <label>Select</label>
+                <label class="select">
+                    <select class="custom">
+                        <option value="1">HTML5</option>
+                        <option value="2">Javascript</option>
+                        <option value="3">CSS3</option>
+                    </select>
+                </label>
+                <label>Range</label>
+                <input type="range" />
+                <label>Progress</label>
+                <div data-progress="20%"></div>
+            </form>
+        </article>
+        <article id="art-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. </article>
+        <article id="art-2" class="list" data-search="blue">
+            <li>lista quojs</li>
+            <li>lista monocle</li>
+            <li>lista lungojs</li>
+        </article>
+        <footer>
+            <nav class="with-labels">
+                <a href="#art-1" data-router="article" data-icon="mail" data-count="20" ></a>
+                <a href="#art-2" data-router="article" data-label="dos" data-icon="user" ></a>
+                <a href="#art-3" data-router="article" data-label="tres" data-icon="settings" ></a>
+                <a href="#art-4" data-router="article" data-label="cuatro" data-icon="ticket" ></a>
+            </nav>
+        </footer>
+    </section>
+
+    <aside id="features">
+        <header data-title="Menu"></header>
+        <article class="list">
+            <li>
+                <a href="#art-3" data-router="article"><strong>Formulario</strong></a>
+            </li>
+            <li>
+                <a href="#art-4" data-router="article"><strong>Listas</strong></a>
+            </li>
+        </article>
+    </aside>
+
+    <section id="second" data-transition="slide" >
+        <header data-title="Ventana2" data-back="home"></header>
+        <article></article>
+        <footer></footer>
+    </section>
+
+    <section id="pull"  data-transition="slide" >
+        <header data-title="List Form"></header>
+
+        <article class="list">
+            <form>
+                <li>
+                    <input type="text" name="text-name" placeholder="hola">
+                </li>
+                <li><input type="tel" name="text-name2"></li>
+                <li>
+                    <a href="#" class="button big blue" data-label="New Task" ></a>
+                </li>
+            </form>
+        </article>
+    </section>
+
+    <!-- Lungo - Dependencies -->
+    <script src="components/quojs/quo.js"></script>
+    <script src="components/lungo/lungo.js"></script>
+    <script src="app.js"></script>
+    <script src="event.js"></script>
+    <!-- Lungo - Sandbox App -->
+    <script>
+        Lungo.init({
+            name: 'prueba'
+        });
+    </script>
+    <script type="text/javascript">
+    touchMove = function(event) {
+        event.preventDefault();
+    }
+</script>
+</body>
+</html>
